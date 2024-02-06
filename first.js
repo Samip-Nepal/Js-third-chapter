@@ -1,12 +1,9 @@
-//for loop
-for(let i=1;i<=100;i++){
-    console.log("Samip");
-}
-let sum=0;
-for(let i=1;i<=100;i++){
-    sum=sum+i;
-}
-console.log("Sum=", sum);
-for(let i=1;i<=100;i++){
+//While loop 
+let i=1;
+while(i<=10){
     console.log("i=",i);
+    i++;
 }
+
+
+
