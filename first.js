@@ -1,9 +1,9 @@
-//While loop 
+//do while loop 
 let i=1;
-while(i<=10){
+do{
     console.log("i=",i);
     i++;
-}
+}while (i<=5);
 
 
 
