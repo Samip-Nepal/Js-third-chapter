@@ -1,3 +1,13 @@
+//Pratice qn2
+let a=10;
+ let b=prompt("Tell any number");
+while(b!=a){
+b=prompt("Your guess number is wrong try again");
+}
+console.log("Your guess is correct");
+
+
+
 //Pratice qn 1
 for (let i= 0; i <=100; i++) {
     if(i%2===0){
