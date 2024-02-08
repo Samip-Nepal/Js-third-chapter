@@ -8,7 +8,7 @@ const student ={
     isreading:true,
 };
 for (let  key in student) {
-    console.log("Keys=", key);
+    console.log("Keys value=", student [key]);
 }
 
 //for of loop
