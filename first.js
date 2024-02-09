@@ -1,15 +1,24 @@
-//string
-let str1="Samip";
-let str2="Nepal";
-console.log(str1,str2);
-console.log(str1.length);
-console.log(str2[0]);
+//template string literals 
+let object={
+    name:"samip ",
+    age:21,
+}
+console.log("Name of person is=",object.name,"and Age is",object.age);
+//using template string 
+let samip1=`Name of person is= ${object.name} and Age is ${object.age}`;
+console.log(samip1);
+let samip=`Name of person is= ${5+6} and Age is ${5/5}`;
+console.log(samip);
 
 
 
-
-
-
+ 
+ //string
+// let str1="Samip";
+// let str2="Nepal";
+// console.log(str1,str2);
+// console.log(str1.length);
+// console.log(str2[0]);
 
 //Pratice q
 // let a=10;
