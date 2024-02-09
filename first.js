@@ -1,11 +1,19 @@
 //string method in js
-let str1="Samip";
-let str2="NEPAL";
-console.log(str1.slice(1,4));
-console.log(str2.slice(3));
-//concat
-console.log(str1.concat(str2));
-console.log("My name is" ,str1+str2);
+let str1="Samipppp";
+let str2="Nepal";
+console.log(str1.replace("p","ta"));//replace one time p with ta
+//console.log(str1.replaceALL("p","ta"));//replace all p with ta
+console.log(str1.charAt(5));
+
+
+
+
+
+// console.log(str1.slice(1,4));
+// console.log(str2.slice(3));
+// //concat
+// console.log(str1.concat(str2));
+// console.log("My name is" ,str1+str2);
 
 
 
