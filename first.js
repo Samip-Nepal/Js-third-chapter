@@ -1,15 +1,20 @@
 //string method in js
 let str1="Samip";
 let str2="NEPAL";
-let str3="   SAMIP  NEPAL in js  "
-console.log(str1.toUpperCase());
-console.log(str2.toLowerCase());
-console.log(str3.trim());
+console.log(str1.slice(1,4));
+console.log(str2.slice(3));
+//concat
+console.log(str1.concat(str2));
+console.log("My name is" ,str1+str2);
 
 
 
-
-
+// let str1="Samip";
+// let str2="NEPAL";
+// let str3="   SAMIP  NEPAL in js  "
+// console.log(str1.toUpperCase());
+// console.log(str2.toLowerCase());
+// console.log(str3.trim());
 //template string literals 
 // let object={
 //     name:"samip ",
